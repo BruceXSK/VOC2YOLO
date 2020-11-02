@@ -112,8 +112,8 @@ def createLabel(srcXmlPath, dstTxtPath, labelList):
 
 
 if __name__ == '__main__':
-    srcDatasetDir = '/home/bruce/Data/datasets/crowdhuman'
-    labelList = ['person']
+    srcDatasetDir = '/path/to/the/parent/directory/of/Annotations/and/JPEGImages'
+    labelList = ['the', 'labels', 'you', 'need']
     valPercent = 0.2
 
     datasetName = os.path.basename(srcDatasetDir)
